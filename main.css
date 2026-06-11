@@ -497,18 +497,23 @@ td {
         padding: 30px 25px;
     }
 
+    /* ADMIN MOBILE */
+
     .admin-layout {
-        grid-template-columns: 1fr;
+        display: block;
+        width: 100%;
+        min-height: 100vh;
     }
 
     .sidebar {
+        width: 100%;
         text-align: center;
-        padding: 25px 15px;
+        padding: 22px 12px;
     }
 
     .sidebar h2 {
-        font-size: 26px;
-        margin-bottom: 20px;
+        font-size: 24px;
+        margin-bottom: 18px;
     }
 
     .sidebar ul {
@@ -516,61 +521,76 @@ td {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 10px 14px;
     }
 
     .sidebar li {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .content {
-        padding: 25px 18px;
+        width: 100%;
+        padding: 22px 12px;
     }
 
     .content h1 {
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .stats {
+        display: grid;
         grid-template-columns: 1fr;
-        gap: 18px;
+        gap: 15px;
     }
 
     .stat-card {
-        min-height: 110px;
-        padding: 20px;
+        width: 100%;
+        min-height: 95px;
+        padding: 18px;
     }
 
     .stat-card h3 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .stat-card p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .admin-section {
-        padding: 18px;
-        overflow-x: auto;
+        margin-top: 25px;
+        padding: 15px;
+        overflow-x: hidden;
     }
 
     .toolbar {
         flex-direction: column;
-        gap: 15px;
+        gap: 12px;
         align-items: stretch;
     }
 
     .toolbar h2 {
-        font-size: 22px;
+        font-size: 18px;
         text-align: center;
     }
 
     .toolbar button {
         width: 100%;
+        font-size: 14px;
+        padding: 10px;
     }
 
     table {
-        min-width: 650px;
+        width: 100%;
+        min-width: unset;
+        font-size: 11px;
+    }
+
+    th,
+    td {
+        padding: 8px 4px;
+        word-break: break-word;
     }
 }
