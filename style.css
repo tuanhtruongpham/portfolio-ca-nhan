@@ -545,3 +545,22 @@ border-bottom:1px solid #ddd;
     }
 
 }
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 28px !important;
+        line-height: 1.2 !important;
+    }
+
+    .hero-text p {
+        font-size: 15px !important;
+    }
+
+    .hero {
+        padding: 30px 15px !important;
+    }
+
+    .btn {
+        font-size: 15px !important;
+        padding: 10px 16px !important;
+    }
+}
